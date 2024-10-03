@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Davie JR's Order Page</title>
+  <link href="https://fonts.googleapis.com/css?family=Roboto:100,500,700|Oswald:300,400,700" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="reset.css">
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+
+  <!-- Navigation Section -->
+  
+  <nav>
+    <a href="./index.html"><img src="https://content.codecademy.com/courses/web-101/unit-6/htmlcss1-img_burger-logo.svg" /></a>
+    <span><a href="./menu.html">MENU</a></span>
+    <span><a href="./nutrition.html">NUTRITION</a></span>
+    <span><a href="./order.html">ORDER</a></span>
+    <span><a href="./location.html">LOCATIONS</a></span>
+  </nav>
+
+  <!-- Order Section -->
+
+  <div class="content">
+
+    <!-- Page Header -->
+    <div class="header">
+      <h1>Place Your Order</h1>
+      <p>Select your favorite items and customize them before checkout.</p>
+    </div>
+
+    <!-- Order Form -->
+    <div class="order-form">
+
+      <!-- Menu Item 1 -->
+      <div class="order-item">
+        <h2>BBQ Bacon Burger</h2>
+        <p>Wagyu and sirloin blend, crispy pork belly, hickory smoked BBQ sauce on a brioche bun.</p>
+        <label for="bbq-bacon-qty">Quantity:</label>
+        <input type="number" id="bbq-bacon-qty" name="bbq-bacon-qty" min="1" max="10" value="1">
+
+        <h4>Add-Ons:</h4>
+        <label><input type="checkbox" name="extra-bacon"> Extra Bacon</label>
+        <label><input type="checkbox" name="extra-cheese"> Extra Cheese</label>
+      </div>
+
+      <!-- Menu Item 2 -->
+      <div class="order-item">
+        <h2>Classic Cheeseburger</h2>
+        <p>Beef patty, cheddar cheese, lettuce, tomato, pickles, and our special sauce.</p>
+        <label for="classic-cheese-qty">Quantity:</label>
+        <input type="number" id="classic-cheese-qty" name="classic-cheese-qty" min="1" max="10" value="1">
+
+        <h4>Add-Ons:</h4>
+        <label><input type="checkbox" name="extra-pickles"> Extra Pickles</label>
+        <label><input type="checkbox" name="extra-cheese"> Extra Cheese</label>
+      </div>
+
+      <!-- Menu Item 3 -->
+      <div class="order-item">
+        <h2>Spicy Chicken Sandwich</h2>
+        <p>Crispy chicken breast, spicy aioli, lettuce, tomato, and pickles on a toasted bun.</p>
+        <label for="spicy-chicken-qty">Quantity:</label>
+        <input type="number" id="spicy-chicken-qty" name="spicy-chicken-qty" min="1" max="10" value="1">
+
+        <h4>Add-Ons:</h4>
+        <label><input type="checkbox" name="extra-aioli"> Extra Spicy Aioli</label>
+        <label><input type="checkbox" name="extra-pickles"> Extra Pickles</label>
+      </div>
+
+      <!-- Menu Item 4 -->
+      <div class="order-item">
+        <h2>Veggie Burger</h2>
+        <p>Grilled plant-based patty, avocado, lettuce, tomato, onion, and vegan mayo.</p>
+        <label for="veggie-burger-qty">Quantity:</label>
+        <input type="number" id="veggie-burger-qty" name="veggie-burger-qty" min="1" max="10" value="1">
+
+        <h4>Add-Ons:</h4>
+        <label><input type="checkbox" name="extra-avocado"> Extra Avocado</label>
+        <label><input type="checkbox" name="extra-vegan-mayo"> Extra Vegan Mayo</label>
+      </div>
+
+      <!-- Menu Item 5 -->
+      <div class="order-item">
+        <h2>Loaded Fries</h2>
+        <p>Fries topped with cheese, bacon bits, and our signature house sauce.</p>
+        <label for="loaded-fries-qty">Quantity:</label>
+        <input type="number" id="loaded-fries-qty" name="loaded-fries-qty" min="1" max="10" value="1">
+
+        <h4>Add-Ons:</h4>
+        <label><input type="checkbox" name="extra-bacon"> Extra Bacon</label>
+        <label><input type="checkbox" name="extra-cheese"> Extra Cheese</label>
+      </div>
+
+      <!-- Menu Item 6 -->
+      <div class="order-item">
+        <h2>House Salad</h2>
+        <p>Fresh greens, cherry tomatoes, cucumbers, croutons, and a light vinaigrette.</p>
+        <label for="house-salad-qty">Quantity:</label>
+        <input type="number" id="house-salad-qty" name="house-salad-qty" min="1" max="10" value="1">
+
+        <h4>Add-Ons:</h4>
+        <label><input type="checkbox" name="extra-croutons"> Extra Croutons</label>
+        <label><input type="checkbox" name="extra-dressing"> Extra Dressing</label>
+      </div>
+
+      <!-- Order Summary -->
+      <div class="order-summary">
+        <h2>Your Order</h2>
+        <p><strong>Total:</strong> $0.00</p>
+        <button type="button" class="checkout-button">Proceed to Checkout</button>
+      </div>
+
+    </div>
+  </div>
+
+</body>
+</html>
